@@ -1,0 +1,5 @@
+venv
+*.pyc
+*.env
+migrations
+*.db_env
