@@ -3,3 +3,4 @@ venv
 *.env
 migrations
 *.db_env
+*.DS_STORE
