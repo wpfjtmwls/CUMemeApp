@@ -1,0 +1,15 @@
+version: '3'
+services:
+  web:
+    build : .
+    ports: 
+      - "5000:5000"
+    volumes:
+    - ./src:/vol
+    environment: 
+      - APP_SETTINGS=config.DevelopmentConfig
+      - DB_NAME=cumemes
+      - DB_USER=ay244
+      - DB_PASS=123456
+      - DB_SERVICE=35.231.144.250
+      - DB_PORT=5432
