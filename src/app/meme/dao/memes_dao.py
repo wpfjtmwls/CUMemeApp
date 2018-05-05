@@ -1,5 +1,7 @@
 from . import *
 from flask import jsonify
+from app.meme.models.all import *
+from app import db
 
 def to_dict(meme):
 
@@ -39,8 +41,10 @@ def update_meme(userid, name, new_name, new_description):
     meme = Meme.query.filter_by(userid=userid,name=name).first()
     meme.name = new_name
     meme.description = new_description
-
+    
     db.session.commit()
+
+
 
 
 def insert_meme(userid, category, subcategory, name, img_url, description):
@@ -49,9 +53,13 @@ def insert_meme(userid, category, subcategory, name, img_url, description):
     db.session.add(meme)
     db.session.commit()
 
+
+
 def delete_meme(userid, name):
 
     Meme.query.filter_by(userid=userid,name=name).delete()
     db.session.commit()
+
+
 
 
