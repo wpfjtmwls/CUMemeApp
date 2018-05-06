@@ -1,6 +1,6 @@
 venv
 *.pyc
 *.env
-migrations
+src/migrations
 *.db_env
 *.DS_STORE
