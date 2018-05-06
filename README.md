@@ -1,5 +1,5 @@
 # CUMeme
-This is IOS App for viewing and sharing Cornell Memes
+This is an IOS App for viewing and sharing Cornell Memes
 
 ### Snaps
 [![Demo for the app](https://img.youtube.com/vi/-npUVmvDz3A/0.jpg)](https://www.youtube.com/watch?v=-npUVmvDz3A)
