@@ -40,7 +40,7 @@ Gets all memes with the provided name
   {
     "category": "cornell life", 
     "description": "this is cornell image about extreme weather", 
-    "img_url": https://goo.gl/images/38ZpDc, 
+    "img_url": "https://goo.gl/images/38ZpDc", 
     "name": "cornell_weather_meme", 
     "subcategory": "weather", 
     "userid": "ay244"
@@ -58,7 +58,7 @@ Gets all memes under the main category
   {
     "category": "cornell life", 
     "description": "this is cornell image about extreme weather", 
-    "img_url": https://goo.gl/images/38ZpDc, 
+    "img_url": "https://goo.gl/images/38ZpDc", 
     "name": "cornell_weather_meme", 
     "subcategory": "weather", 
     "userid": "ay244"
@@ -76,7 +76,7 @@ Gets all memes under the subcategory
   {
     "category": "cornell life", 
     "description": "this is cornell image about extreme weather", 
-    "img_url": https://goo.gl/images/38ZpDc, 
+    "img_url": "https://goo.gl/images/38ZpDc", 
     "name": "cornell_weather_meme", 
     "subcategory": "weather", 
     "userid": "ay244"
@@ -121,4 +121,4 @@ Delete a meme
 ### Let graders know
 We configured the backend deployment at 10pm on the day of deadline, so the full integration between frontend and backend is not done as the date of May/6th/2018. But we will integrate soon in several days. We learned a lot through the process, so we are still satisfied what we have so far. 
 
- 
+
